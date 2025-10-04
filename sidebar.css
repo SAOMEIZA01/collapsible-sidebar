@@ -2,6 +2,14 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    padding: 10px 0;
+    background: #292929;
+    margin: 0;
+}
 .txt-gra {
     background: linear-gradient(90deg, orange, #292929);
     background-clip: text;
