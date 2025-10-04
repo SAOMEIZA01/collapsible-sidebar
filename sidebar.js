@@ -24,5 +24,7 @@ window.addEventListener('resize', () => {
   if (window.innerWidth > 768) {
     sidebar.classList.remove('active');
     aside.classList.remove('active');
+  } else {
+    sidebar.classList.remove('collapsed')
   }
 });
